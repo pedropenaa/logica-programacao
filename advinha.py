@@ -5,7 +5,7 @@ print("O NUMERO SECRETO ESTA ENTRE: 0-10" )
 
 
 
-numero_secreto  = 7
+numero_secreto  = 9
 tentantiva = 5
 rodada = 1 
 
