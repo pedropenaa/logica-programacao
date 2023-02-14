@@ -1,13 +1,38 @@
+import random
+
+
 print("**********************************")
 print("Bem Vindo ao jogo de Advinhação!"  )
 print("**********************************")
-print("O NUMERO SECRETO ESTA ENTRE: 0-10" )
+print("O NUMERO SECRETO ESTA ENTRE: 1-15" )
 
 
 
-numero_secreto  = 9
-tentantiva = 5
+numero_secreto  = random.randint(1,15)
+tentantiva = 0
 rodada = 1 
+
+#print(numero_secreto)
+
+print("*****************************************")
+
+print("Defina o nivel da dificuldade")
+
+print( "(1) Fácil"   )
+print( "(2) Medio"   )
+print( "(3) Difícil" )
+
+
+
+nivel = int(input("Qual o nivel de dificuldade desejado: "))
+
+
+if nivel == 1:
+     tentantiva= 20 
+elif nivel == 2:
+     tentantiva = 10
+else:
+     tentantiva = 5 
 
 
 
