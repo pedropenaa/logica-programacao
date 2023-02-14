@@ -13,7 +13,7 @@ rodada = 1
 
 
 while rodada <= tentantiva:
-     print("Tentativa", rodada,"de", tentantiva)
+     print("Tentativa {} de {}".format(rodada, tentantiva))
      adivinha = int(input("Qual o numero do chute: "))
 
      acertou = adivinha == numero_secreto
