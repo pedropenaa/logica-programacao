@@ -1,5 +1,6 @@
 import Jogos.forca as forca
 import Jogos.adivinha as adivinha
+import Jogos.bolinha as bolinha
 
 
 def escolhe_jogo():
@@ -7,6 +8,7 @@ def escolhe_jogo():
 
     print("(1) adivinhação")
     print("(2) Forca")
+    print("(3) Bolinha")
 
     jogo = int(input("Qual jogo deseja jogar: "))
 
@@ -19,8 +21,12 @@ def escolhe_jogo():
         print("Jogando o jogo da forca")
         forca.jogar_forca()
 
+    elif jogo == 3: 
+        print("jogando o jogo da bolinha")
+        bolinha.jogar_bolinha()
     else: 
-        print("esse jogo nao existe")
+        print("Esse jogo nao existe!!, POR FAVOR ESCOLHA OUTRO")
+
 
 
 if __name__ == "__main__":
