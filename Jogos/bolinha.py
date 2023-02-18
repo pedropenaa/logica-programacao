@@ -1,6 +1,12 @@
 from graphics import *
 import random
 
+
+#INCOMPLETO!!!!!!!!
+
+
+
+
 def jogar_bolinha():
     win = GraphWin("Bolinha ...", 800, 600)
 
@@ -97,3 +103,7 @@ def jogar_bolinha():
 
     win.close()
 
+
+
+if __name__ == "__main__":
+    jogar_bolinha()
