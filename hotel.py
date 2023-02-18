@@ -19,6 +19,9 @@ total = ["Roberto Faca","Roberto Arma", "Uesllei","Maria Calice", "Roberta Corda
 contadorDeVogais = 0
 whitegun= ["faca", "corda","calice" ]
 Haswhitegun= False
+
+
+
 for i in range(len(total)):
   print(str(i+1)+" - "+total[i])
 posicao = input("write the number of suspect: ")
