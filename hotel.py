@@ -13,8 +13,8 @@
  #Sabendo dessas informações acima, projete o algorítmo que fornecido o nome do suspeito, indique se ele pode ou não ser o assassino.
 
 
-male = ["Renato Faca","Roberto Arma", "Uesllei"]
-female= ["Maria Calice", "Roberta Corda"]
+homem = ["Renato Faca","Roberto Arma", "Uesllei"]
+mulher= ["Maria Calice", "Roberta Corda"]
 total = ["Roberto Faca","Roberto Arma", "Uesllei","Maria Calice", "Roberta Corda"]
 contadorDeVogais = 0
 whitegun= ["faca", "corda","calice" ]
@@ -38,10 +38,10 @@ for b in whitegun:
   if b in name.lower():
       temArmaBranco = True
 
-if name in female and Haswhitegun:
+if name in mulher and Haswhitegun:
   print(name, " é  guilty")
 
-if name in male:
+if name in homem:
   lobby= input("was he in the lobby at 00h?")
   if lobby=="yes".replace(" ",""):
       print(name, " é guilty")

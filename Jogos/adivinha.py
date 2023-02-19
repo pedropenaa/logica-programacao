@@ -6,6 +6,7 @@ def jogar_advinhacao():
      print("Bem Vindo ao jogo de Advinhação!"  )
      print("**********************************")
      print("O NUMERO SECRETO ESTA ENTRE: 1-15" )
+     print("**********************************")
 
 
 

@@ -15,6 +15,8 @@ def jogar_bolinha():
     linhaSuperior.setFill(color_rgb(10, 100, 10))
     linhaSuperior.draw(win)
 
+
+    
     linhaInferior = Line(Point(0, 550), Point(800, 550))
     linhaInferior.setWidth(3)
     linhaInferior.setFill(color_rgb(10, 100, 10))
