@@ -1,17 +1,17 @@
 
-#No hotel morte lenta, estavam hospedados 5 hospédes, Renato Faca, Maria Cálice, Roberto Arma, Roberta Corda e Uesllei.
+"""No hotel morte lenta, estavam hospedados 5 hospédes, Renato Faca, Maria Cálice, Roberto Arma, Roberta Corda e Uesllei.
 
-#A meia noite, o hóspede do quarto 101 foi encontrado morto e os 5 suspeitos são os citados acima.
+A meia noite, o hóspede do quarto 101 foi encontrado morto e os 5 suspeitos são os citados acima.
 
-#Descubra quem é o assassino sabendo que:
+Descubra quem é o assassino sabendo que:
 
- #Se o nome do suspeito contem 3 vogais ou mais(Nome completo) e nenhuma dessas vogais é u ou o, ele pode ser o assassino.X
+ Se o nome do suspeito contem 3 vogais ou mais(Nome completo) e nenhuma dessas vogais é u ou o, ele pode ser o assassino.X
 
-#Se o suspeito for do sexo feminino, só sera assassina se tiver utilizado uma arma branca.
-# #Se o suspeito for do sexo masculino, ele deveria estar no saguão do hotel a 00h30 para ser considerado o assasino.
+Se o suspeito for do sexo feminino, só sera assassina se tiver utilizado uma arma branca. 
+Se o suspeito for do sexo masculino, ele deveria estar no saguão do hotel a 00h30 para ser considerado o assasino.
 
- #Sabendo dessas informações acima, projete o algorítmo que fornecido o nome do suspeito, indique se ele pode ou não ser o assassino.
-
+ Sabendo dessas informações acima, projete o algorítmo que fornecido o nome do suspeito, indique se ele pode ou não ser o assassino.
+"""
 
 homem = ["Renato Faca","Roberto Arma", "Uesllei"]
 mulher= ["Maria Calice", "Roberta Corda"]
